@@ -1,0 +1,151 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.primary-color-text{
+  color: #3B9C9C !important;
+}
+
+.secondary-color {
+  background-color: #E0FBFC !important;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  padding: 10px;
+}
+
+.primary-color,
+.nav-wrapper {
+  background-color: #3B9C9C !important;
+}
+
+#nav-bar-right {
+  background-color: #AEAEAE;
+}
+
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Tres columnas: logo, espacio flexible y menú */
+  align-items: center;
+}
+.hero {
+  padding: 50px 0;
+}
+
+.benefit, .card-subscription {
+  margin-bottom: 30px;
+}
+
+.benefit-img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    padding: 20px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+  }
+  .nav-wrapper {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sidenav {
+    width: 250px;
+  }
+}
+
+.hero {
+  min-height: 830px;
+  background-image: url('./images/perroprueba1.png');
+  background-size: cover; 
+  background-position: center;
+  align-items: center;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.375) !important; /* Ajusta el valor de opacidad (0.7) según sea necesario */
+}
+
+.flow-text {
+  margin-right: 40px;
+}
+
+.benefit {
+  padding: 80px 0;
+  text-align: left;
+}
+
+p {
+  font-size: 19px;
+}
+
+#subscription {
+  justify-content: center;
+}
+
+.subscription-content {
+  display: flex;
+  margin: 60px 0;
+  flex-wrap: wrap;
+}
+
+.card-subscription {
+  margin: auto;
+}
+
+.card-subscription ul {
+  
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.card-subscription ul li {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.price {
+  padding: 40px 0;
+}
+
+.form {
+  margin: 50px 0;
+  border-radius: 19px;
+  padding: 30px 50px;
+  min-width: 500px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.input-field input {
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+.social-icons a {
+  margin-right: 10px; 
+}
+
+.social-icons img {
+  width: 50px; 
+}

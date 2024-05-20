@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Petcare brinda comodidad y tranquilidad a los dueños de mascotas y a los centros veterinarios independientes.">
+  <meta name="keywords" content="Petcare, veterinary appointments, pet care services, pet health, animal clinic, pet grooming">
+  <meta name="author" content="DeMentes Team">
+  <title>Petcare - Donde cada huella deja una marca en nuestros corazones</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.2.10/angular-material.min.css" rel="stylesheet">
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Google Fonts - Montserrat -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Tu archivo CSS personalizado -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="primary-color" aria-label="Main Navigation">
+      <div class="nav-wrapper container">
+        <div class="logo left"><img src="./images/petcare-logo.png" height="44px" alt="Petcare logo"></div>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Quienes somos</a></li>
+          <li><a href="#benefits">Beneficios</a></li>
+          <li><a href="#subscription">Suscripción</a></li>
+          <li><a href="#contact-me">Contacto</a></li>
+        </ul>
+        <ul id="nav-bar-right" class="right hide-on-med-and-down">
+          <li><a>Iniciar sesión</a></li>
+          <li><a>Registrarse</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#about">Quienes somos</a></li>
+      <li><a href="#benefits">Beneficios</a></li>
+      <li><a href="#subscription">Suscripción</a></li>
+      <li><a href="#contact-me">Contacto</a></li>
+      <li><a>Iniciar sesión</a></li>
+      <li><a>Registrarse</a></li>
+    </ul>
+  </header>
+  
+  <main>
+    <section id="home" class="hero" aria-labelledby="home-heading">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel primary-color lighten-3 white-text center-align transparent">
+              <div class="valign">
+                <h1 id="home-heading">Bienvenido a PetCare</h1>
+                <p class="flow-text">Donde cada huella deja una marca en nuestros corazones</p>
+                <a class="waves-effect waves-light btn-large" aria-label="Saber más sobre PetCare">Saber más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section" aria-labelledby="about-heading">
+      <div class="container">
+        <h3 id="about-heading" class="primary-color-text">¿Quiénes somos?</h3>
+        <div class="row valign">
+          <div class="col s12 m6 valign">
+            <p class="flow-text mb-4">En PetCare, nos dedicamos apasionadamente al cuidado y bienestar de tus mascotas. Nuestra misión es proporcionar servicios médicos de alta calidad, desde consultas de rutina hasta tratamientos especializados, asegurando la salud y felicidad de tus queridos compañeros peludos.</p>
+          </div>
+          <div class="col s12 m6">
+            <img class="materialboxed responsive-img" src="./images/perro-en-un-veterinario.jpg" alt="Imagen de perro en un veterinario" height="200px" width="auto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="benefits section" aria-labelledby="benefits-heading">
+      <div class="container">
+        <div class="column">
+          <div class="col s12 m4">
+            <div class="secondary-color benefit" role="article" aria-labelledby="benefit1-heading">
+              <div class="row valign-wrapper">
+                <div class="col s12 m6">
+                  <img class="materialboxed responsive-img" src="./images/agenda.jpg" alt="Imagen de agenda" class="benefit-img" height="100px" width="auto" role="img" aria-describedby="benefit1-desc">
+                </div>
+                <div class="col s12 m6 valign">
+                  <div class="benefit-text mb-4">
+                    <h4 id="benefit1-heading" class="primary-color-text">Horarios personalizados a tu conveniencia</h4>
+                    <p id="benefit1-desc">Puedes programar citas en momentos convenientes para ti, incluyendo tardes y fines de semana, para que puedas brindarle a tu mascota la atención que se merece sin complicaciones. Tu comodidad es nuestra prioridad.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="benefit" role="article" aria-labelledby="benefit2-heading">
+              <div class="row valign-wrapper">
+                <div class="col s12 m6 valign">
+                  <div class="benefit-text mb-4">
+                    <h4 id="benefit2-heading" class="primary-color-text">Atención especializada</h4>
+                    <p id="benefit2-desc">Ofrecemos atención veterinaria especializada adaptada a las necesidades únicas de cada mascota. Nuestro equipo está capacitado para diagnosticar y tratar una amplia gama de problemas de salud.</p>
+                  </div>
+                </div>
+                <div class="col s12 m6">
+                  <img class="materialboxed responsive-img" src="./images/veterinaria-con-perro.jpg" alt="Imagen de veterinaria con perro" class="benefit-img" height="400px" width="auto" role="img" aria-describedby="benefit2-desc">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="secondary-color benefit" role="article" aria-labelledby="benefit3-heading">
+              <div class="row valign-wrapper">
+                <div class="col s12 m6">
+                  <img class="materialboxed responsive-img" src="./images/chica con celular.jpg" alt="Imagen de chica con celular" class="benefit-img" height="400px" width="auto" role="img" aria-describedby="benefit3-desc">
+                </div>
+                <div class="col s12 m6 valign">
+                  <div class="benefit-text">
+                    <h4 id="benefit3-heading" class="primary-color-text">Acceso fácil al historial de citas</h4>
+                    <p id="benefit3-desc">Te ofrecemos la comodidad de acceder a tu historial de citas en línea. Puedes revisar fácilmente las fechas y detalles de todas tus visitas anteriores. Esta herramienta te permite mantener un seguimiento completo del cuidado veterinario de tu mascota.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="subscription" class="subscription section" aria-labelledby="subscription-heading">
+      <div class="title subscription">
+        <h3 id="subscription-heading" class="primary-color-text center-align">Suscripciones</h3>
+      </div>
+      <h5 class="center-align">Escoge una suscripción de acuerdo a tu elección y accede a sus beneficios</h5>
+      <div class="row subscription-content">
+        <div class="col s12 m4 card-subscription">
+          <div class="card-panel secondary-color lighten-2 black-text" aria-labelledby="plan-premium-heading">
+            <h4 id="plan-premium-heading" class="center-align">Plan Premium</h4>
+            <ul>
+              <li><i class="material-icons" aria-hidden="true">arrow_circle_right</i> Acceso a descuentos</li>
+              <li><i class="material-icons" aria-hidden="true">arrow_circle_right</i> Expediente clínico animal</li>
+              <li><i class="material-icons" aria-hidden="true">arrow_circle_right</i> Productos gratis</li>
+            </ul>
+            <h5 class="price"><strong>S/ 20.00</strong></h5>
+            <div class="center-align"><a href="#" class="waves-effect waves-light btn" aria-label="Saber más sobre el Plan Premium">Saber más</a></div>
+          </div>
+        </div>
+        <div class="col s12 m4 card-subscription">
+          <div class="card-panel secondary-color lighten-2 black-text" aria-labelledby="plan-salud-heading">
+            <h4 id="plan-salud-heading" class="center-align">Plan Salud</h4>
+            <ul>
+              <li><i class="material-icons" aria-hidden="true">arrow_circle_right</i> Todos los beneficios del Plan Premium</li>
+              <li><i class="material-icons" aria-hidden="true">arrow_circle_right</i> Cobertura de enfermedades crónicas</li>
+              <li><i class="material-icons" aria-hidden="true">arrow_circle_right</i> Cobertura de emergencias</li>
+            </ul>
+            <h5 class="price"><strong>S/ 30.00</strong></h5>
+            <div class="center-align"><a href="#" class="waves-effect waves-light btn" aria-label="Saber más sobre el Plan Salud">Saber más</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-me" class="contact section secondary-color" aria-labelledby="contact-heading">
+      <div class="container">
+        <h3 id="contact-heading" class="center-align primary-color-text">Sé parte de nosotros</h3>
+        <h5 class="center-align"> ¡Únete a nosotros y mejora la experiencia de cuidado para las mascotas!</h5>
+        <div class="contact">
+          <div class="form primary-color">
+            <form aria-labelledby="contact-form">
+              <div class="input-field">
+                <input id="name" type="text" class="validate" aria-required="true" aria-describedby="name-desc">
+                <label for="name" class="white-text">Nombres</label>
+              </div>
+              <div class="input-field">
+                <input id="last-name" type="text" class="validate" aria-required="true" aria-describedby="last-name-desc">
+                <label for="last-name" class="white-text">Apellidos</label>
+              </div>
+              <div class="input-field">
+                <input id="email" type="email" class="validate" aria-required="true" aria-describedby="email-desc">
+                <label for="email" class="white-text">Correo electrónico</label>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" aria-label="Registrar">Regístrate</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer center-align" aria-labelledby="footer-heading">
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://www.facebook.com" aria-label="Facebook"><img src="./images/facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com" aria-label="Instagram"><img src="./images/instagram.png" alt="Instagram"></a>
+        <a href="https://twitter.com" aria-label="Twitter"><img src="./images/Twitter.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/login" aria-label="LinkedIn"><img src="./images/Linkedin.png" alt="LinkedIn"></a>
+      </div>
+      <p id="footer-heading">© PetCare, Inc. 2024. Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <!-- Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular-animate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular-aria.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.2.10/angular-material.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
+</body>
+</html>
