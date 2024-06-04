@@ -149,3 +149,7 @@ footer {
 .social-icons img {
   width: 50px; 
 }
+
+#register-button {
+  background-color: #26a69a;
+}
